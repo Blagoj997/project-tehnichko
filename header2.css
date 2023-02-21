@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: block;
+  margin: auto;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+header .nav-autorization {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  width: 100%;
+}
+
+header .ul {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.a1 {
+  color: green;
+  text-decoration: none;
+  font-weight: 700px;
+  font-weight: bolder;
+}
+
+.a2 {
+  color: rgb(170, 170, 17);
+  text-decoration: none;
+  font-weight: bolder;
+  font-weight: 700px;
+
+}
+
+.a2:hover {
+  color: green;
+  text-decoration: none;
+  font-weight: 700px;
+  font-weight: bolder;
+}
+
+.a1:hover {
+  color: rgb(170, 170, 17);
+  text-decoration: none;
+  font-weight: bolder;
+  font-weight: 700px;
+
+}
+
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+.imageInn:hover {
+  opacity: 0;
+  display: none;
+}
